@@ -1,0 +1,48 @@
+body {
+    background: rgba(0, 123, 255, 0.7);
+}
+
+.studentregistration label {
+    color: #000;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 1px 1px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.card-header {
+    background: white;
+    color: grey;
+    font-weight: 100;
+    padding: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 0.2rem;
+    border-bottom: solid 1px #000;
+}
+
+.card .card-body .user .btn-student {
+    border-radius: 30px;
+    padding: 12px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .studentregistration label {
+        display: flex;
+        justify-content: left;
+        margin-bottom: 20px;
+    }
+
+    .studentregistration .form-control {
+        margin-bottom: 25px;
+    }
+}

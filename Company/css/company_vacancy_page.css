@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------------- Navbar Part------------------------------------------- */
+
+#Top-navigationbar .logo img {
+    margin: 2px 5px;
+}
+
+@media only screen and (max-width:700px) {
+    #Top-navigationbar .logo img {
+        margin: 0 0 10px 5px;
+    }
+}
+
+#Top-navigationbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+#Top-navigationbar .navbar-nav {
+    margin-left: 120px;
+}
+
+@media only screen and (max-width:700px) {
+    #Top-navigationbar .navbar-nav {
+        margin: 8px 0 2px 2px;
+    }
+
+    #Top-navigationbar .navbar-nav li a {
+        font-size: 13px;
+    }
+}
+
+#Top-navigationbar .navbar-toggler {
+    outline: none;
+    color: black;
+}
+
+#Top-navigationbar nav {
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.02);
+}
+
+#collapsibleNavbar li a {
+    padding: 10px;
+    font-size: 15px;
+    color: #000;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+
+#collapsibleNavbar ul li:hover {
+    border-bottom: 1.5px solid yellowgreen;
+
+}
+
+#collapsibleNavbar ul li:hover .nav-link {
+    color: orangered;
+}
+
+#collapsibleNavbar ul .dropdown {
+    transition: 0.8s;
+}
+
+#collapsibleNavbar ul .dropdown-item:hover {
+    color: green;
+    transform: translateX(5px);
+    border-left: 2px solid orangered;
+
+}
+
+#collapsibleNavbar ul .dropdown-item {
+    color: grey;
+}
+
+#collapsibleNavbar ul .dropdown-menu {
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+#collapsibleNavbar ul .fas {
+    font-size: 19px;
+}
+
+#collapsibleNavbar ul .adm {
+    margin-left: 508px;
+}
+
+@media only screen and (max-width:700px) {
+    #collapsibleNavbar ul .adm {
+        margin-left: 0;
+    }
+}
+
+/* ------------------------------------- Navbar Part Done------------------------------------------- */
+
+.form-vacancy{
+    padding: 90px 70px 50px 70px;
+    margin-top:10px;
+    box-shadow: 0px 0px 10px 1px #cccccc;
+}
+.vacancy{
+    border-radius:30px;
+    padding:10px ;
+    margin-bottom:20px;
+}
+@media only screen and (max-width:700px){
+.form-vacancy{
+    padding:60px;
+}
+h2{
+    margin-top:20px;
+}
+}

@@ -1,0 +1,479 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box  ;
+}
+
+/* -------------------Navbar------------------- */
+
+#Top-navigationbar .logo img{
+    /* margin-top:5px;
+    margin-bottom: 5px;
+    margin-left:80px;
+    margin-right:50px; */
+}
+
+@media only screen and (max-width:700px){
+    #Top-navigationbar .logo img{
+        /* margin:0 0 10px 5px; */
+    }
+}
+
+#Top-navigationbar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:whitesmoke;
+}
+#Top-navigationbar .navbar-nav{
+    margin-left:320px;
+}
+@media only screen and (max-width:700px){
+    #Top-navigationbar .navbar-nav {
+        margin:8px 0 2px 2px;
+    }
+    #Top-navigationbar .navbar-nav li a{
+        font-size: 14px;
+    }
+}
+#Top-navigationbar.navbar-toggler{
+outline: none;
+color: black;
+}
+
+nav{
+    /* z-index:99; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.02);
+}
+#collapsibleNavbar li a{
+    padding:11px;
+    font-size: 15px;
+    color:black;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#collapsibleNavbar  li,a{
+    transition: 0.8s;
+}
+#collapsibleNavbar ul li:hover{
+background:rgb(106, 103, 206);
+}
+#collapsibleNavbar ul li:hover .nav-link{
+    color:whitesmoke;
+}
+#collapsibleNavbar ul .dropdown{
+    transition: 0.8s;
+}
+#collapsibleNavbar ul .dropdown-item:hover {
+color: green;
+transform: translateX(5px);
+border-left: 2px solid orangered;
+
+}
+#collapsibleNavbar ul  .dropdown-item{
+    color: grey ;
+}
+#collapsibleNavbar ul .dropdown-menu{
+    color: whitesmoke;
+    overflow: hidden;
+}
+#collapsibleNavbar ul .fas{
+    font-size: 23px;
+}
+#collapsibleNavbar ul .adm{
+    margin-left: 286px;
+}
+@media only screen and (max-width:700px){
+    #collapsibleNavbar ul .adm{
+        margin-left: 0;
+    }
+}
+/* ---------------Home Page---------------- */
+
+.home-page-text {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: black;
+    font-weight: 100;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: white;
+}
+
+/* --------------------Team -------------------------- */
+
+#team{
+    padding: 60px 0px;
+}
+
+#team .team-img {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+#team .box-shadow {
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, .4);
+    transition:1s;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+
+#team .box-shadow:hover{
+    transform:scale(1.1);
+    
+}
+
+
+#team .overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .8); 
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s;
+}
+
+#team .team-img:hover .overlay {
+    opacity: 1;
+}
+
+#team .overlay .social-icons li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+#team .overlay .social-icons i {
+    font-size: 40px;
+    padding: 10px;
+    color: black;
+}
+
+#team .overlay .social-icons li:hover i {
+    color: orangered;
+}
+
+#team .team-info h3 {
+    font-family: titillium web, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+#team .team-info a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+#team .team-info a:hover {
+    color: blue;
+}
+
+#team .team-info p {
+    font-size: 16px;
+    font-family: open sans, sans-serif;
+    color: #888;
+}
+
+@media only screen and (max-width:700px) {
+    #team .col-lg-3 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+#team .team-header {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: black;
+    font-weight: 100;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#team .team-header p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 520;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+/* ------------------------ Clients  ------------------------- */
+
+#clients h2 {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: black;
+    font-weight: 100;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 22px 0;
+}
+
+#clients p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 520;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    color: black;
+}
+
+#clients .header-info {
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width:700px) {
+    #clients .col-lg-3 {
+        padding: 27px 15px;
+    }
+
+    #clients h2 {
+        font-size: 27px;
+    }
+}
+
+#clients .col-lg-3 {
+    opacity: 0.6;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#clients .col-lg-3:hover {
+    opacity: 1;
+}
+
+ /*-----------------------------Feature------------------------------------------ */
+
+        #feature .text-wrapper {
+            padding-left: 140px;
+        }
+
+        @media only screen and (max-width:700px) {
+            #feature .text-wrapper {
+                padding-left: 10px;
+            }
+
+            #feature .col-lg-6 {
+                margin-top: 15px;
+            }
+        }
+
+        #feature .text-wrapper h2 {
+            font-size: 29px;
+            margin: 40px 0;
+            letter-spacing: 1px;
+            word-spacing: 3px;
+            color: black;
+            font-family: 'Titillium Web', sans-serif
+        }
+
+        #feature .text-wrapper p {
+            color: black;
+            font-size: 17px;
+            padding-right: 12px;
+            line-height: 25px;
+            font-family: open sans-serif;
+        }
+
+        #feature .text-wrapper a {
+            border-radius: 30px;
+            font-size: 14px;
+            font-family: open sans-serif;
+            padding: 10px 30px;
+            border: none;
+            outline: none;
+        }
+
+        #feature .text-wrapper a:hover {
+            background-color: black;
+        }
+
+        #feature .outer {
+            display: flex;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-right: 10px;
+        }
+
+        #feature .outer .icon-info h3 {
+            font-size: 16px;
+            font-family: 'Titillium Web', sans-serif;
+            margin-top: 8px;
+            letter-spacing: 0.8px;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        #feature .outer .icon-info p {
+            font-size: 14px;
+            font-family: 'Titillium Web', sans-serif;
+            color: whitesmoke;
+        }
+
+        #feature .outer .icon a {
+            width: 70px;
+            height: 70px;
+            border: solid grey 1px;
+            border-radius: 50%;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #feature .outer .icon a:hover {
+            background: white;
+            border: none;
+        }
+
+        #feature .outer .icon a:hover i {
+            color: black;
+        }
+
+        #feature .outer .icon i {
+            color: white;
+            font-size: 27px;
+            align-items: center;
+        }
+
+/*------------------------- Feature Done ----------------------------------- */
+
+/*------------------------- About Us ----------------------------------- */
+
+        #about .jumbotron {
+            color: whitesmoke;
+            padding: 55px auto;
+            margin-bottom: 0;
+        }
+
+        #about p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 19px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-weight: 100;
+            color: black;
+        }
+        @media only screen and (max-width:700px){
+            #about p{
+            font-size: 16px;
+            }
+        }
+
+        .video-promo {
+            position: relative;
+            width: 100%;
+            height: 270px;
+            background-image: url("./images/bg-video.jpg");
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(240, 95, 64, .2);
+        }
+
+        .video-content {
+            margin-top: 60px;
+        }
+
+        .video-content h2 {
+            letter-spacing: 1px;
+            word-spacing: 3px;
+            color: black;
+            font-weight: 300;
+            color: aliceblue;
+            font-family: 'Titillium Web', sans-serif;
+            margin: 20px 0;
+        }
+
+        @media only screen and (max-width:700px) {
+            .video-content h2 {
+                font-size: 22px;
+            }
+        }
+
+        .video-content button {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: none;
+            border: solid white 2px;
+        }
+
+        .video-content i {
+            color: white;
+            font-size: 27px;
+            padding-top: 5px;
+        }
+
+
+        .video-content button:hover i {
+            color: black;
+        }
+
+        .video-content button:hover {
+            background: white;
+        }
+
+
+        @media only screen and (max-width:700) {
+            .video-promo {
+                width: 100%;
+                height: 236px;
+            }
+        }
+
+/*------------------------- About Us Done ----------------------------------- */
+       
+/*------------------------- Contact Part ----------------------------------- */
+
+        #contact {
+            padding: 50px 0;
+        }
+
+        #contact h2 {
+            letter-spacing: 1px;
+            word-spacing: 3px;
+            color: black;
+            font-family: 'Titillium Web', sans-serif;
+        }
+
+        #contact .contact-info {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 520;
+            margin-top: 32px;
+            margin-bottom: 30px;
+            color: black;
+        }
+
+        #contact i {
+            font-size: 34px;
+            margin-bottom: 12px;
+        }
+
+        #contact .contact-icons p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: 520;
+            color: black;
+
+        }
+
+        @media only screen and (max-width:700px) {
+            #contact h2{
+                font-size: 26px;
+            }
+        }
+
+/*------------------------- Contact Part Done ----------------------------------- */

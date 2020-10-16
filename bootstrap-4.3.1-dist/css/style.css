@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ----------------------Navigation Start------------------ */
+nav{
+    background-color: #2C3E50;
+}
+
+.menu-bar{
+    font-family: sans-serif;
+}
+
+.menu-bar .collapse .nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menu-bar .collapse .nav-link:hover {
+    color: #1ABC9C;
+}
+.menu-bar .navbar-toggler{
+    font-size: 13px;
+    padding: 12px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
+    background: #1ABC9C;
+}
+.menu-bar .navbar-toggler:hover{
+    background-color: cadetblue;
+}
+
+.menu-bar .navbar-brand
+{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:800px){
+.menu-bar .navbar-brand {
+    font-size: 20px;
+    padding-bottom:13px; 
+}
+}
+
+/*---------------------- Navigation Done------------------ */
+
+/* -------------------Start Page--------------------------- */
+.jumbotron1{
+    font-family: sans-serif;
+    background-color: #1ABC9C;
+    margin-bottom: 0px;
+}
+.jumbotron1 img{ 
+    padding-top: 8px;
+    margin-top: 115px;
+}
+.ruledivider  {
+    display: inline-block;
+    width: 90px;
+    height: 1.8px;
+    background-color: white;
+}
+.fa-star{
+    color: white;
+    font-size: 35px;
+}
+.jumbotron1 p {
+    word-spacing: 2px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    padding-bottom:20px; 
+}
+.jumbotron1 h1{
+    margin: 0;
+    padding: 0; 
+    letter-spacing:1px; 
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+@media only screen and (max-width:800px){
+    .jumbotron1 h1{
+        font-size: 44px;
+    }
+
+}
+/* -------------------Start Page Done------------------------ */
+
+/* --------------About Section ----------- */
+
+.aboutsection{
+    background-color: #1ABC9C;
+}
+.aboutsection h2{
+    letter-spacing: 2px;
+    font-size: 44px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-top: 90px;
+}
+.aboutsection p{
+    font-weight: normal;
+}
+.aboutsection .container  a{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.aboutsection .buttonofabout {
+    padding-bottom: 90px;
+}
+.aboutsection .buttonofabout:hover a{
+    color: black;
+}
+@media only screen and(max-width:700px){
+    .aboutsection{
+        height: 100vh;
+    }
+   
+}
+
+/* ----------------------ABout Section Done------------ */
+ 
+/* --------------------Footer Part-------------- */
+
+.footer {
+    background-color: #2C3E50;
+}
+.footer h4{
+    font-family: sans-serif;
+}
+.footer p{
+    font-weight: normal;
+}
+.footer .row{
+    padding-top:70px ;
+    padding-bottom: 55px;  
+}
+.footer .btn-social{
+    font-weight: bold;
+}
+.footer h4{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width:700px){
+    .footer .container a{
+        font-size: 20px;
+    }
+
+}
+
+/*--------------Footer End------------  */
+
+/*--------------Contact Page------------  */
+
+    .contactpage {
+        font-family: sans-serif;
+    }
+    .contactpage button{
+        background-color: #1ABC9C;
+        color: white;
+        margin-top: 15px;
+        border: none;
+    }
+    .contactpage .fa-star{
+        font-size: 35px;
+        color: #2C3E50;
+    }
+    .contactpage .ruledivider{
+        background-color: #2C3E50;
+        display: inline-block;
+        width: 90px;
+        height: 1.8px;
+    }
+
+    .contactpage h2 {
+        padding-top: 90px;
+        letter-spacing: 1px;
+        font-size: 44px;
+        font-weight: bold;
+    }
+    
+    @media only screen and (max-width:700px){
+        .contactpage h2{
+            padding-top:70px; 
+            letter-spacing: 0px;
+            font-size:35px;
+        }
+    }
+
+    .form-group .form-control {
+        outline: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid 1px lightgrey;
+    }
+
+/*---------------Contact Page Done---------------------------  */
+
+ /* --------------Portfolio Section--------------------------- */
+ .rohan {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1ABC9C;
+}
+
+@media only screen and (max-width:700px) {
+    .image {
+        margin-bottom: 20px;
+    }
+   }
+}
+
+.rohan:hover .overlay {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    font-size: 90px;
+
+}
+
+/* --------------------------ModalS----------------------------- */
+.modal {
+    font-family: sans-serif;
+}
+
+.modal .ruledivider {
+    display: inline-block;
+    width: 90px;
+    height: 2.8px;
+    background-color: black;
+}
+
+.modal .modal-content button {
+    font-size: 70px;
+    color: #1ABC9C;
+}
+
+.modal .modal-body h2 {
+    letter-spacing: 1px;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.modal .fa-star {
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+}
+
+.modal .modal-body button {
+    color: white;
+    background-color: #1ABC9C;
+}
+
+/* --------------Modal Done---------------------------*/
+
+.portfoliosection {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-family: sans-serif;
+}
+
+.portfoliosection h2 {
+    font-size: 48px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+.portfoliosection .ruledivider {
+    display: inline-block;
+    width: 90px;
+    height: 2.8px;
+    background-color: #2C3E50;
+}
+
+.portfoliosection .fa-star {
+    font-weight: bold;
+    color: #2C3E50;
+    font-size: 40px;
+}

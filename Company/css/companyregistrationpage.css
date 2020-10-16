@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#companyregistration .card .card-body .user .btn-user {
+    border-radius: 30px;
+    padding: 12px;
+    color: black;
+}
+
+body {
+    background: linear-gradient(to right, rgba(29, 75, 174,0.9), rgba(219, 71, 53, 0.85));
+}
+
+#companyregistration .card {
+    margin-top: 86px;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width:700px) {
+    #companyregistration .card .card-body .user .space {
+        margin-bottom: 20px;
+    }
+
+    #companyregistration .card {
+        margin-top: 0px;
+    }
+}
+
+#companyregistration h1 {
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    margin-bottom: 50px;
+}

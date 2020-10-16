@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* ------------------------------------- Navbar Part------------------------------------------- */
+
+#Top-navigationbar .logo img {
+    margin: 2px 5px;
+}
+
+@media only screen and (max-width:700px) {
+    #Top-navigationbar .logo img {
+        margin: 0 0 10px 5px;
+    }
+}
+
+#Top-navigationbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+#Top-navigationbar .navbar-nav {
+    margin-left: 120px;
+}
+
+@media only screen and (max-width:700px) {
+    #Top-navigationbar .navbar-nav {
+        margin: 8px 0 2px 2px;
+    }
+
+    #Top-navigationbar .navbar-nav li a {
+        font-size: 13px;
+    }
+}
+
+#Top-navigationbar .navbar-toggler {
+    outline: none;
+    color: black;
+}
+
+#Top-navigationbar nav {
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, 0.02);
+}
+
+#collapsibleNavbar li a {
+    padding: 10px;
+    font-size: 15px;
+    color: #000;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+
+#collapsibleNavbar ul li:hover {
+    border-bottom: 1.5px solid yellowgreen;
+
+}
+
+#collapsibleNavbar ul li:hover .nav-link {
+    color: black;
+}
+
+#collapsibleNavbar ul .dropdown {
+    transition: 2s;
+}
+
+#collapsibleNavbar ul .dropdown-item:hover {
+     color: black;
+    transform: translateX(5px);
+    border-left: 2px solid orangered; */
+
+}
+
+#collapsibleNavbar ul .dropdown-item {
+    color: grey;
+}
+
+#collapsibleNavbar ul .dropdown-menu {
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+#collapsibleNavbar ul .fas {
+    font-size: 19px;
+}
+
+#collapsibleNavbar ul .adm {
+    margin-left: 508px;
+}
+
+@media only screen and (max-width:700px) {
+    #collapsibleNavbar ul .adm {
+        margin-left: 0;
+    }
+}
+
+/* ------------------------------------- Navbar Part Done------------------------------------------- */
+
+/* ------------------------------------- Company Carousel ------------------------------------------- */
+
+#company_background .carousel-inner .carousel-caption .carousel-caption-info {
+    margin-bottom: 300px;
+}
+
+#company_background .carousel-inner .carousel-caption h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 200;
+    line-height: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 700px) {
+    #company_background .carousel-inner .carousel-caption .carousel-caption-info {
+        margin-bottom: 0px;
+    }
+
+    #company_background .carousel-inner .carousel-caption h2 {
+        margin-top: 20px;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 200;
+        line-height: 60px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #company_background .carousel-inner .carousel-caption .btn {
+        border-radius: 30px;
+        padding: 0px 0px;
+        font-size: 12px;
+
+    }
+}
+
+#company_background .carousel-inner .carousel-caption .btn {
+    border-radius: 30px;
+    padding: 10px 80px;
+}
+
+/* ------------------------------------- Company Carousel Done------------------------------------------- */
+
+/* ------------------------------------- Company Services ------------------------------------------- */
+
+#services {
+    background-color: #F9F9F9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#services .services-header h2 {
+    letter-spacing: 1px;
+    color: #222;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 0;
+
+}
+
+#services .services-header p {
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 26px;
+}
+
+#services .services-box {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    border: #222;
+    border-radius: 5px;
+    background-color: white;
+    transition: 1s;
+
+}
+
+#services .services-box:hover {
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, .2);
+
+}
+
+@media only screen and (max-width:700px) {
+    #services .services-header p {
+        margin-bottom: 40px;
+    }
+
+    #services .services-box {
+        margin: 15px 0px 20px 0px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    #services .services-header h2 {
+        font-size: 27px;
+    }
+
+    #services .services-header p {
+        font-size: 16px;
+    }
+}
+
+#services .services-box .icon {
+    font-size: 40px;
+    font-family: open sans, sans-serif;
+    color: grey;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#services .services-box .icon:hover {
+    color: orangered;
+}
+
+#services .services-box .services-content h3 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #585B60;
+    transition: 0.5s;
+
+}
+
+@media only screen and (max-width:700px) {
+    #services .services-box .services-content h3 {
+        font-size: 15px;
+    }
+}
+
+#services .services-box .services-content a {
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+    color: #585B60;
+}
+
+#services .services-box .services-content a:hover {
+    color: orangered;
+}
+
+#services .services-box .services-content p {
+    font-size: 14px;
+    font-family: open sans, sans-serif;
+    color: grey;
+}
+
+/* ------------------------------------- Company Services Done ------------------------------------------- */
+
+/* ------------------------------------- Company About Us ------------------------------------------- */
+
+#company_about_us .skill-area {
+    padding: 60px 0px;
+}
+
+#company_about_us .skill-area .col-lg-6 h2 {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    padding-bottom: 1px;
+}
+
+#company_about_us .skill-area .col-lg-6 .info-p p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: #abacae;
+    margin-bottom: 2px;
+}
+
+#company_about_us .skill-area .col-lg-6 .info-p {
+    padding: 5px 0px 19px 0;
+}
+
+#company_about_us .skill-area .col-lg-6 .info-progress h5 {
+    text-transform: uppercase;
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+#company_about_us .skill-area .col-lg-6 .info-progress .bar1 {
+    width: 77%;
+}
+
+#company_about_us .skill-area .col-lg-6 .info-progress .bar2 {
+    width: 90%;
+}
+
+#company_about_us .skill-area .col-lg-6 .info-progress .bar3 {
+    width: 85%;
+}
+
+#company_about_us .skill-area .col-lg-6 .info-progress .progress-box {
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width:700px) {
+    #company_about_us .skill-area .col-lg-6 h2 {
+        font-size: 21px;
+        padding-top: 30px;
+        padding-bottom: 4px;
+    }
+
+    #company_about_us .skill-area .col-lg-6 .info-p {
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+}
+
+/* ------------------------------------- Company About Us Done ------------------------------------------- */

@@ -1,0 +1,9 @@
+
+Few areas in technology have fascinated me to think as much as my undergraduate courses in Data Structures, Theory of Computation, and Computer Programming.
+For example; when using Google Photos, I saw how the application was able to quickly recognize similar faces in thousands of pictures and categorize them into folders based on the face of a person, and I was appalled by the efficiency and convenience of it all.
+It was here that I recognized innovations that keep evolving not only technically, but which also hold infinite scope for creativity and logic. 
+I discovered that deep learning algorithms are used in Google Photos. Data is the most essential commodity in today's day and age, and being perceptive of how to process and structure this vast amount of raw data available to us, is something that indisputably interests me.
+I am thus eager to endow my time in the world of Data Mining, Machine Learning, Artificial Intelligence, etc.; and to pertain these concepts to real-world applications.
+In order to accomplish my goals, I need to be equipped and well-versed with the latest technology. Thus, began my research of graduate programs, which started and stopped at the Msc in Advanced Computer Science at University of Hertfordshire in UK.
+I am certain that the program curriculum would enhance my skills and the modules such as Data mining, Neural Networks and Machine Learning etc; would help me gain exposure in the field of Computing and Artificial Intelligence. Alongside the University also provide placement to students which will give them Industrial Work Experience.
+I would like to work for an innovation hub such as Google or Amazon where I will focus on Machine learning applications. 

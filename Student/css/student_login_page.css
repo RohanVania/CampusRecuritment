@@ -1,0 +1,38 @@
+
+/* -------------------- Student Login Page ---------------------------  */
+
+body {
+    background: linear-gradient(to right, rgba(29, 75, 174,0.9), rgba(219, 71, 53, 0.85)),url("../images/vasily-koloda-8CqDvPuo_kI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+#studentlogin .card {
+    margin: 70px 0;
+}
+
+#studentlogin .card .card-body img {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+#studentlogin .card .card-body .form-control-user {
+    padding: 20px;
+    border-radius: 40px;
+}
+
+#studentlogin .card .card-body .user .btn-user {
+    border-radius: 40px;
+    padding: 10px;
+}
+
+#studentlogin .card .card-body .user .btn-google {
+    color: #fff;
+    background-color: #ea4335;
+}
+#studentlogin .card .card-body .user .btn-google:hover {
+    background: orangered;
+}

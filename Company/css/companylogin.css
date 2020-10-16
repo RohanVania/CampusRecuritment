@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#companylogin {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(105, 105, 105, 0.7)), url("./images/cytonn-photography-l3MMvRYdPhc-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#companylogin .card {
+    margin: 110px 0;
+}
+
+#companylogin .card .card-body img {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+#companylogin .card .card-body .form-control-user {
+    padding: 22px;
+    border-radius: 40px;
+}
+
+#companylogin .card .card-body .user .btn-user {
+    border-radius: 40px;
+    padding: 12px;
+}
+
+#companylogin .card .card-body .user .btn-google {
+    color: #fff;
+    background-color: #ea4335;
+}
+
+
+#companylogin .card .card-body .createaccount {
+    margin-top: 35px;
+}
+
+#companylogin .card .card-body .createaccount a {
+    font-size: 18px;
+    color: orangered;
+    text-decoration: none;
+}
